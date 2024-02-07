@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, html, body {
+  font-family: 'Roslindale';
+font-weight: 800;
+overflow-x:hidden;
+}
+
+
+.model {
+  background-image: url("assets//models//model5.jpg");
+}
+
+
+
+
+.gallery{
+  transform-style:preserve-3d;
+  animation: rotate 15s linear infinite;
+}
+
+
+@keyframes rotate{
+  from{
+    transform:perspective(1200px) rotateY(0deg);
+  }
+  
+  to{
+    transform:perspective(1200px) rotateY(360deg);
+  }
+}
+
+
+
+.three{
+  transform-style:preserve-3d;
+  transform:rotateY(calc(var(--i) * 45deg)) translateZ(380px);
+}
