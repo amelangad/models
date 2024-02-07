@@ -17,7 +17,7 @@ export default function Album() {
                     repeatDelay: 1,
                     repeatType: "mirror"
                 }}> .</motion.span></motion.p>
-            <div className="w-full flex flex-col lg:flex-row justify-center items-center m-20 overflow-hidden">
+            <div className="w-full flex flex-col lg:flex-row justify-center items-center lg:m-20 overflow-hidden">
                 <div className="w-full flex flex-col gap-5">
                     <motion.div className=" h-[500px] w-[500px] overflow-hidden"
                         initial={{ opacity: 0 }}
