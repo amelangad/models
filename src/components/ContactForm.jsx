@@ -102,7 +102,7 @@ export default function ContactForm() {
         </div>
       </div>
       <div className ="flex justify-center items-center">
-      <button type="submit" className="mt-5 rounded-md bg-black mx-auto lg:px-10 py-2 text-white">Send Message</button>
+      <button type="submit" className="mt-5 rounded-md bg-black mx-auto lg:px-10 py-2 mb-5 text-white">Send Message</button>
       </div>
     </form>
     </div>
