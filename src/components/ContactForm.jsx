@@ -3,7 +3,7 @@ import {motion} from "framer-motion"
 
 export default function ContactForm() {
     return (
-        <div className ="w-screen h-screen flex flex-col lg:flex-row ">
+        <div className ="w-screen h-auto flex flex-col lg:flex-row ">
         <div className="w-full h-screen grid place-items-center bg-[#a6c9a6] m-0">
             <div className="relative gallery w-[500px] h-[500px]">
                 <div className="absolute w-full h-full  origin-center three">
@@ -11,9 +11,9 @@ export default function ContactForm() {
                         className="absolute w-full h-full object-cover" /></div>
             </div>
         </div>
-        <div className ="w-full h-full bg-[#c2afd3] flex flex-col justify-center items-center">
-            <h1 className=" flex justify-center items-center text-2xl font-bold lg:hidden py-5 leading-[0.5px]">Contact</h1>
-            <div className="relative lg:overflow-hidden lg:absolute lg:right-20 w-full md:w-3/4 lg:w-1/2 h-3/4 lg:h-1/2 flex justify-center items-start bg-[#f0eee3] rounded-[20px] md:rounded-tl-[100px]  md:rounded-tr-[350px] md:rounded-bl-[400px] md:rounded-br-[200px]">
+        <div className ="w-full h-screen bg-[#c2afd3] flex flex-col justify-center items-center">
+            <h1 className="  flex justify-center items-center text-2xl font-bold lg:hidden py-20 leading-[0.5px]">Contact</h1>
+            <div className="relative lg:overflow-hidden lg:absolute lg:right-20 w-full md:w-3/4 lg:w-1/2 h-1/2  flex justify-center lg:items-start bg-[#f0eee3] rounded-[20px] md:rounded-tl-[100px]  md:rounded-tr-[350px] md:rounded-bl-[400px] md:rounded-br-[200px]">
                 <motion.h1 className =" hidden lg:flex text-3xl lg:py-20 font-mono"
                 initial={{y:-100}}
                 whileInView={{y: 0}}
@@ -86,7 +86,7 @@ export default function ContactForm() {
                     t</motion.h1>
                 
            
-    <form action="/" className=" px-5 mt-10 absolute lg:left-1/3 lg:top-1/4">
+    <form action="/" className="py-20 lg:py-0 px-5 absolute lg:left-1/3 lg:top-1/4">
       <div className="grid gap-6 sm:grid-cols-2">
         <div className="relative z-0">
           <input type="text" name="name" className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0" placeholder=" " />
